@@ -1,0 +1,20 @@
+# PageRank Search Engine Dependencies
+
+# Wikipedia API for crawling
+wikipedia-api==0.6.0
+
+# Numerical computing for PageRank
+numpy==1.24.3
+
+# Web framework for search interface
+Flask==2.3.2
+
+# For saving/loading data
+# (pickle is built-in to Python)
+
+# Optional but recommended
+Werkzeug==2.3.6  # Flask dependency
+
+# Development tools (optional)
+pytest==7.4.0  # For testing
+black==23.3.0  # Code formatting
